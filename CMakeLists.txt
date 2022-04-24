@@ -9,7 +9,6 @@ SET(SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp
     )
 
-add_library(${ProjectName} STATIC ${SOURCES})
+add_library(${ProjectName} SHARED ${SOURCES})
 add_subdirectory(ut)
-
 #add_executable(${ProjectName} ${SOURCES})
