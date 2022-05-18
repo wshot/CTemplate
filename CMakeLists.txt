@@ -12,6 +12,7 @@ SET(SOURCES
 SET(ADAPTER_NAME display_adapter)
 SET(ADAPTER_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/src/adapter/DisplayAdapter.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/adapter/DisplayTest.c
 )
 add_library(${ADAPTER_NAME} STATIC ${ADAPTER_SOURCES})
 
